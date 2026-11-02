@@ -106,16 +106,47 @@ mode always overrides a theme when both are on.
 
 ## Planned
 
-**More game types.** Further tailored types beyond quiz, estimate, multiple
-choice, ordering, true/false, matching and buzzer, each with its own add mask and
-board behaviour.
+Each of these has an issue with details and a rough plan. Pick one up if you like.
+
+**More than two teams** ([#66](https://github.com/maytheforcebewithy/spielwiese/issues/66)).
+Add and remove teams from the host view, with a colour-blind-safe palette and a
+board and recap laid out for three or four teams instead of two columns.
+
+**Configurable points per game** ([#67](https://github.com/maytheforcebewithy/spielwiese/issues/67)).
+An optional weight on a game so a final can count double, shown on the board
+card and respected by undo and the recap.
+
+**Throttled host PIN** ([#68](https://github.com/maytheforcebewithy/spielwiese/issues/68)).
+Slow down repeated wrong PIN attempts per client so a four-digit PIN is not
+guessable in seconds on a shared Wi-Fi.
+
+**Printable recap** ([#69](https://github.com/maytheforcebewithy/spielwiese/issues/69)).
+A single printable page with the final standings, awards and the
+points-progression recap to keep after the event. PDF comes via the browser's
+print dialog.
+
+**More game types** ([#70](https://github.com/maytheforcebewithy/spielwiese/issues/70) for the first one).
+Further tailored types beyond quiz, estimate, multiple choice, ordering,
+true/false, matching and buzzer, each with its own add mask and board behaviour.
+First up is a timed challenge with an on-board countdown.
+
+**Docker image** ([#71](https://github.com/maytheforcebewithy/spielwiese/issues/71)).
+A Dockerfile and compose file for people who run a home server, with `data/`
+as a volume and the invite QR codes still pointing at the right address.
+
+**Broader end-to-end tests** ([#72](https://github.com/maytheforcebewithy/spielwiese/issues/72)).
+Playwright coverage for the cross-view flows: scoring and undo across board and
+watch view, joining and betting, reconnect, snapshots and config round-trips.
 
 ## Ideas
 
 Further out, not committed yet.
 
-**Print / export a recap.** A printable one-pager or export of the final
-standings, awards and the points-progression recap to keep after the event.
+**Third UI language.** The locale files are plain JSON, so another language is
+mostly translation work, but the bilingual presets would need a third column too.
+
+**Photo moments.** Let the host attach a photo to a game result from the phone
+so the recap has a picture per game.
 
 ## Want to help?
 
