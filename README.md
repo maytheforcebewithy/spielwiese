@@ -13,8 +13,6 @@ before the big reveal. All running on your own machine over the local Wi-Fi.
 Built for a 5-vs-5 garden tournament, but everything is editable, so it works
 for any point-based party tournament.
 
-> ☕ **Enjoying Spielwiese?** [Buy us a coffee](https://ko-fi.com/I4N620AYLT) Thank you!
-
 > Scoring is deliberately simple: **one point per game won.** The host just taps
 > which team won each game. Anything that happens _inside_ a game (running
 > tallies, times) can be jotted in the game's note field for the host's
