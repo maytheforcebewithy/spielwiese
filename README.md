@@ -226,4 +226,4 @@ pure logic lives in `core/` with unit tests. A Playwright end-to-end smoke test
 
 ## License
 
-MIT © kikimika GbR
+MIT © Kira Keil
